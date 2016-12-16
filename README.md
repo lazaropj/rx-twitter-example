@@ -3,12 +3,6 @@
 Write code that will cover the functionality explained below and provide us with the source, instructions to build and run the appliocation  as well as a sample output of an execution:
 
 + Connect to the [Twitter Streaming API](https://dev.twitter.com/streaming/overview)
-    * Use the following values:
-        + Consumer Key: `RLSrphihyR4G2UxvA0XBkLAdl`
-        + Consumer Secret: `FTz2KcP1y3pcLw0XXMX5Jy3GTobqUweITIFy4QefullmpPnKm4`
-    * The app name will be `java-exercise`
-    * You will need to login with Twitter
-+ Filter messages that track on "bieber"
 + Retrieve the incoming messages for 30 seconds or up to 100 messages, whichever comes first
 + Your application should return the messages grouped by user (users sorted chronologically, ascending)
 + The messages per user should also be sorted chronologically, ascending
